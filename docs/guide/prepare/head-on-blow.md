@@ -38,6 +38,8 @@ archlinux 是简洁的操作系统。arch 将简洁定义为：避免任何不�
 
 但也正因为此，配置 archlinux 相对于其它 Linux 发行版来说是繁琐。首先，安装 archlinux 需要在命令行手动输入至少 20 多条命令，并且要保证正确：
 
+> 为简化安装流程，官方提供了安装脚本 archinstall，但不建议初学者用 archinstall 走捷径，因为手动安装 archlinux 本身就是 archlinux 教学实操的一环，少了这个环节，会让初学者面对一些基础问题时束手无策，为自己和社区带来不必要的麻烦。
+
 ```bash
 systemctl stop reflector.service
 iwctl
